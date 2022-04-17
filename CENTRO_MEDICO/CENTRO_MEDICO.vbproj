@@ -220,6 +220,13 @@
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\wfCita.aspx.designer.vb">
+      <DependentUpon>wfCita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\wfCita.aspx.vb">
+      <DependentUpon>wfCita.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
