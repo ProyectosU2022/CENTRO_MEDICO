@@ -154,6 +154,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Formularios\wfCita.aspx" />
+    <Content Include="Formularios\wfCliente.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -225,6 +226,13 @@
     </Compile>
     <Compile Include="Formularios\wfCita.aspx.vb">
       <DependentUpon>wfCita.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\wfCliente.aspx.designer.vb">
+      <DependentUpon>wfCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\wfCliente.aspx.vb">
+      <DependentUpon>wfCliente.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
