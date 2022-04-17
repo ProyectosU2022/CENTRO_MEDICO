@@ -11,7 +11,7 @@ namespace CENTRO_MEDICO.Formularios
 {
 
 
-    public partial class wfConsultorio
+    public partial class wfCita
     {
 
         /// <summary>
@@ -33,13 +33,31 @@ namespace CENTRO_MEDICO.Formularios
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control txIdentificador_Consultorio.
+        /// Control txIdentificador_Cita.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txIdentificador_Consultorio;
+        protected global::System.Web.UI.WebControls.TextBox txIdentificador_Cita;
+
+        /// <summary>
+        /// Control Label4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label4;
+
+        /// <summary>
+        /// Control txIdentificador_Especialidad.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txIdentificador_Especialidad;
 
         /// <summary>
         /// Control Label2.
@@ -51,13 +69,31 @@ namespace CENTRO_MEDICO.Formularios
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Control txNumero_Consultorio.
+        /// Control txIdentificador_Doctor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txNumero_Consultorio;
+        protected global::System.Web.UI.WebControls.TextBox txIdentificador_Doctor;
+
+        /// <summary>
+        /// Control Label5.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+
+        /// <summary>
+        /// Control txFecha_Hora_Cita.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txFecha_Hora_Cita;
 
         /// <summary>
         /// Control Label3.
@@ -69,13 +105,31 @@ namespace CENTRO_MEDICO.Formularios
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control txPiso_Consultorio.
+        /// Control txtIdentificador_Cliente.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txPiso_Consultorio;
+        protected global::System.Web.UI.WebControls.TextBox txtIdentificador_Cliente;
+
+        /// <summary>
+        /// Control Label7.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label7;
+
+        /// <summary>
+        /// Control Label6.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
         /// Control Button1.
