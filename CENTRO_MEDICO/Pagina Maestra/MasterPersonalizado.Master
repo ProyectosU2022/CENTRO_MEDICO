@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPersonalizado.master.cs" Inherits="CENTRO_MEDICO.Pagina_Maestra.MasterPersonalizado" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+        <%-- Definición de hojas de estilo para todas las paginas --%>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <header>Sistema Control de Citas Centro Médico</header>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+     </asp:ContentPlaceHolder>
+
+        <%-- Definicion de scripts para todas las páginas --%>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+
+
+       <%-- Content Place Holder para que las páginas que utilicen la plantilla incluyan scripts propios--%>
+    <asp:ContentPlaceHolder ID="scriptsPersonalizados" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <footer>Todos los derechos reservados <%: DateTime.Now.Year %></footer>
+
+</body>
+</html>
