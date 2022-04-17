@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPersonalizado.master.cs" Inherits="CENTRO_MEDICO.MasterPage.MasterPersonalizado" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>Este es el encabezado de todas las paginas</header>
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       </asp:ContentPlaceHolder>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+       <asp:ContentPlaceHolder ID="scriptsPersonalizados" runat="server">
+       </asp:ContentPlaceHolder>
+    <footer>Todos los derechos reservados<%: DateTime.Now.Year %></footer>
+</body>
+</html>
