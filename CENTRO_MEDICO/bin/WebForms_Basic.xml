@@ -37,6 +37,33 @@ CENTRO_MEDICO
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:CENTRO_MEDICO.wfCliente._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CENTRO_MEDICO.wfCliente._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CENTRO_MEDICO.wfCliente._txNombre">
+<summary>
+Control txNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:CENTRO_MEDICO.SiteMaster._MainContent">
 <summary>
 Control MainContent.
