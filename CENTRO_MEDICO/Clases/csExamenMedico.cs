@@ -5,24 +5,24 @@ using System.Web;
 
 namespace CENTRO_MEDICO.Clases
 {
-    public class csEquipoMedico
+    public class csExamenMedico
     {
         #region Atributos
-        public int Identificador_Equipo_Medico { get; set; }
+        public int Identificador_Examen { get; set; }
         public string Nombre { get; set; }
         public string Descripción { get; set; }
 
         #endregion
 
         #region Contructores
-        public csEquipoMedico()
+        public csExamenMedico()
         {
 
         }
 
-        public csEquipoMedico(int pIdentificador_Equipo_Medico, string pNombre, string pDescripción)
+        public csExamenMedico(int pIdentificador_Examen, string pNombre, string pDescripción)
         {
-            this.Identificador_Equipo_Medico = pIdentificador_Equipo_Medico;
+            this.Identificador_Examen = pIdentificador_Examen;
             this.Nombre = pNombre;
             this.Descripción = pDescripción;
 
@@ -31,17 +31,17 @@ namespace CENTRO_MEDICO.Clases
 
         #region Métodos y Funciones
 
-        public void InsertEquipoMedico()
+        public void InsertExamenMedico()
         {
 
         }
 
-        public void DeleteEquipo_medico()
+        public void DeleteExamenMedico()
         {
 
         }
 
-        public void UpdateEquipo_Medico()
+        public void UpdateExamenMedico()
         {
 
         }

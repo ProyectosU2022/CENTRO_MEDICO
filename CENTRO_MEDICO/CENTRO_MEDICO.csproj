@@ -115,18 +115,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Formularios\wfEquipoMedico.aspx" />
-    <Content Include="Formularios\wfEspecialidadMedica.aspx" />
     <Content Include="Formularios\wfCita.aspx" />
     <Content Include="Formularios\wfCliente.aspx" />
     <Content Include="Formularios\wfConsultorio.aspx" />
-    <Content Include="Formularios\wfEnfermedades.aspx" />
-    <Content Include="Formularios\wfExpediente.aspx" />
-    <Content Include="Formularios\wfHorario.aspx" />
-    <Content Include="Formularios\wfMedicamento.aspx" />
-    <Content Include="Formularios\wfMedico.aspx" />
-    <Content Include="Formularios\wfTipoMedicamento.aspx" />
-    <Content Include="Formularios\wfTratamientosQuirurgicos.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -188,6 +179,7 @@
     <Compile Include="Clases\csEnfermedades.cs" />
     <Compile Include="Clases\csEquipoMedico.cs" />
     <Compile Include="Clases\csEspecialidadMedica.cs" />
+    <Compile Include="Clases\csExamenMedico.cs" />
     <Compile Include="Clases\csExpediente.cs" />
     <Compile Include="Clases\csHorario.cs" />
     <Compile Include="Clases\csMedicamento.cs" />
@@ -207,20 +199,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfEquipoMedico.aspx.cs">
-      <DependentUpon>wfEquipoMedico.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfEquipoMedico.aspx.designer.cs">
-      <DependentUpon>wfEquipoMedico.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfEspecialidadMedica.aspx.cs">
-      <DependentUpon>wfEspecialidadMedica.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfEspecialidadMedica.aspx.designer.cs">
-      <DependentUpon>wfEspecialidadMedica.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\wfCita.aspx.cs">
       <DependentUpon>wfCita.aspx</DependentUpon>
@@ -242,55 +220,6 @@
     </Compile>
     <Compile Include="Formularios\wfConsultorio.aspx.designer.cs">
       <DependentUpon>wfConsultorio.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfEnfermedades.aspx.cs">
-      <DependentUpon>wfEnfermedades.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfEnfermedades.aspx.designer.cs">
-      <DependentUpon>wfEnfermedades.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfExpediente.aspx.cs">
-      <DependentUpon>wfExpediente.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfExpediente.aspx.designer.cs">
-      <DependentUpon>wfExpediente.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfHorario.aspx.cs">
-      <DependentUpon>wfHorario.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfHorario.aspx.designer.cs">
-      <DependentUpon>wfHorario.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfMedicamento.aspx.cs">
-      <DependentUpon>wfMedicamento.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfMedicamento.aspx.designer.cs">
-      <DependentUpon>wfMedicamento.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfMedico.aspx.cs">
-      <DependentUpon>wfMedico.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfMedico.aspx.designer.cs">
-      <DependentUpon>wfMedico.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfTipoMedicamento.aspx.cs">
-      <DependentUpon>wfTipoMedicamento.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfTipoMedicamento.aspx.designer.cs">
-      <DependentUpon>wfTipoMedicamento.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\wfTratamientosQuirurgicos.aspx.cs">
-      <DependentUpon>wfTratamientosQuirurgicos.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formularios\wfTratamientosQuirurgicos.aspx.designer.cs">
-      <DependentUpon>wfTratamientosQuirurgicos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

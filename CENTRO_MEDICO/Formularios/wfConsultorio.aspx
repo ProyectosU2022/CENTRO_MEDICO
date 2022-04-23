@@ -8,7 +8,7 @@
 &nbsp;&nbsp;
         <asp:Label ID="Label1" runat="server" Text="Identificador_Consultorio" Font-Names="Arial Black" ForeColor="Black"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txIdentificador_Consultorio" runat="server" Height="27px" TextMode="Number" Width="83px" OnTextChanged="txIdentificador_Consultorio_TextChanged"></asp:TextBox>
+        <asp:TextBox ID="txIdentificador_Consultorio" runat="server" Height="27px" TextMode="Number" Width="83px"></asp:TextBox>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
         <br />
