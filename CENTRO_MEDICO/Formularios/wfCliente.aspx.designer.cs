@@ -150,6 +150,24 @@ namespace CENTRO_MEDICO.Formularios
         protected global::System.Web.UI.WebControls.TextBox txFecha_nacimiento;
 
         /// <summary>
+        /// Control Label16.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label16;
+
+        /// <summary>
+        /// Control DropDownList3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+
+        /// <summary>
         /// Control Label9.
         /// </summary>
         /// <remarks>
@@ -166,6 +184,24 @@ namespace CENTRO_MEDICO.Formularios
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNombre_completo;
+
+        /// <summary>
+        /// Control Label17.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label17;
+
+        /// <summary>
+        /// Control DropDownList4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
 
         /// <summary>
         /// Control Label10.

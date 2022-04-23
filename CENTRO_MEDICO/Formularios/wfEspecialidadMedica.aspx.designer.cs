@@ -11,7 +11,7 @@ namespace CENTRO_MEDICO.Formularios
 {
 
 
-    public partial class wfCita
+    public partial class csEspecialidadMedica
     {
 
         /// <summary>
@@ -33,24 +33,6 @@ namespace CENTRO_MEDICO.Formularios
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control txIdentificador_Cita.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txIdentificador_Cita;
-
-        /// <summary>
-        /// Control Label4.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
-
-        /// <summary>
         /// Control txIdentificador_Especialidad.
         /// </summary>
         /// <remarks>
@@ -69,31 +51,13 @@ namespace CENTRO_MEDICO.Formularios
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Control txIdentificador_Doctor.
+        /// Control txNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txIdentificador_Doctor;
-
-        /// <summary>
-        /// Control Label5.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
-
-        /// <summary>
-        /// Control txFecha_Hora_Cita.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txFecha_Hora_Cita;
+        protected global::System.Web.UI.WebControls.TextBox txNombre;
 
         /// <summary>
         /// Control Label3.
@@ -105,40 +69,13 @@ namespace CENTRO_MEDICO.Formularios
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control txtIdentificador_Cliente.
+        /// Control txDescripcion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtIdentificador_Cliente;
-
-        /// <summary>
-        /// Control Label7.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
-
-        /// <summary>
-        /// Control Label6.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
-
-        /// <summary>
-        /// Control txObservaciones.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txObservaciones;
+        protected global::System.Web.UI.WebControls.TextBox txDescripcion;
 
         /// <summary>
         /// Control Button1.

@@ -7,16 +7,22 @@ using System.Web.UI.WebControls;
 
 namespace CENTRO_MEDICO.Formularios
 {
-    public partial class wfConsultorio : System.Web.UI.Page
+    public partial class wfMedico : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void txIdentificador_Consultorio_TextChanged(object sender, EventArgs e)
+        protected void DropDownList3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
+        protected void DropDownList4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

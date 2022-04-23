@@ -13,5 +13,10 @@ namespace CENTRO_MEDICO.Formularios
         {
 
         }
+
+        protected void txIdentificador_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

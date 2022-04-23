@@ -221,8 +221,8 @@ C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\bin\Microsoft.AspNet.F
 C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\bin\es\System.Web.Optimization.resources.dll
 C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\obj\Debug\CENTRO_MEDICO.csproj.AssemblyReference.cache
 C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\obj\Debug\CENTRO_MEDICO.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\obj\Debug\CENTRO_MEDICO.csproj.CopyComplete
 C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\obj\Debug\CENTRO_MEDICO.dll
 C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\obj\Debug\CENTRO_MEDICO.pdb
+C:\Users\Usuario\Source\Repos\CENTRO_MEDICO\CENTRO_MEDICO\obj\Debug\CENTRO_MEDICO.csproj.AssemblyReference.cache

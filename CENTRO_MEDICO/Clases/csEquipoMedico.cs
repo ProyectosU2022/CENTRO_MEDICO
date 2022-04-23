@@ -10,7 +10,7 @@ namespace CENTRO_MEDICO.Clases
         #region Atributos
         public int Identificador_Equipo_Medico { get; set; }
         public string Nombre { get; set; }
-        public string Descripción { get; set; }
+        public string Descripcion { get; set; }
 
         #endregion
 
@@ -20,11 +20,11 @@ namespace CENTRO_MEDICO.Clases
 
         }
 
-        public csEquipoMedico(int pIdentificador_Equipo_Medico, string pNombre, string pDescripción)
+        public csEquipoMedico(int pIdentificador_Equipo_Medico, string pNombre, string pDescripcion)
         {
             this.Identificador_Equipo_Medico = pIdentificador_Equipo_Medico;
             this.Nombre = pNombre;
-            this.Descripción = pDescripción;
+            this.Descripcion = pDescripcion;
 
         }
         #endregion
@@ -46,6 +46,5 @@ namespace CENTRO_MEDICO.Clases
 
         }
         #endregion
-
     }
 }
