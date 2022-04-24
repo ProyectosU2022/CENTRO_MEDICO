@@ -118,6 +118,7 @@
     <Content Include="Formularios\wfCita.aspx" />
     <Content Include="Formularios\wfCliente.aspx" />
     <Content Include="Formularios\wfConsultorio.aspx" />
+    <Content Include="Formularios\wfEnfermedades.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -220,6 +221,13 @@
     </Compile>
     <Compile Include="Formularios\wfConsultorio.aspx.designer.cs">
       <DependentUpon>wfConsultorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\wfEnfermedades.aspx.cs">
+      <DependentUpon>wfEnfermedades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\wfEnfermedades.aspx.designer.cs">
+      <DependentUpon>wfEnfermedades.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
